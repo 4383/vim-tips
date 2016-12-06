@@ -1,6 +1,6 @@
 {
   "name": "Vim Tips",
   "tagline": "Hervé Beraud personal vim tips and memo",
-  "body": "# Vim Tips\r\nHervé Beraud personal vim tips and memo\r\n\r\n# Format file\r\n- remove white spaces at line start `%s/^\\s\\+//e`\r\n- remove white spaces at end of line `%s/\\s\\+$//e`\r\n\r\n# Copy & paste\r\n- copy and assign to buffer `\"kyy` (in this example is assigned to key `k`)\r\n",
+  "body": "# Vim Tips\r\nHervé Beraud personal vim tips and memo\r\n\r\n# Format file\r\n- remove white spaces at line start `:%s/^\\s\\+//e`\r\n- remove white spaces at end of line `:%s/\\s\\+$//e`\r\n\r\n# Copy & paste\r\n- copy and assign to buffer `\"kyy` (in this example is assigned to key `k`)\r\n",
   "note": "Don't delete this file! It's used internally to help with page regeneration."
 }
