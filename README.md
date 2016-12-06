@@ -7,3 +7,4 @@ Hervé Beraud personal vim tips and memo
 
 # Copy & paste
 - copy and assign to buffer `"kyy` (in this example is assigned to key `k`)
+- paste buffer content (assigned to `k`) `"kp`
