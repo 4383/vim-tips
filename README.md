@@ -1,5 +1,5 @@
-# vim-tips
-My personal vim tips and memo
+# Vim Tips
+Hervé Beraud personal vim tips and memo
 
 # Format file
 - remove white spaces at line start `%s/^\s\+//e`
