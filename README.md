@@ -15,5 +15,5 @@ Hervé Beraud personal vim tips and memo
 - jump to position (line and column) of mark ````a```
 - delete from current line to line of mark `d'a`
 - change text from current line to line of mark `c'a`
-- yank text to unnamed buffer from cursor to position of mark `y`a`
+- yank text to unnamed buffer from cursor to position of mark ```y`a```
 - list all the current marks `:marks`
