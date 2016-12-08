@@ -62,6 +62,24 @@
 <li>paste buffer content (assigned to <code>k</code>) <code>"kp</code>
 </li>
 </ul>
+
+<h1>
+<a id="mark" class="anchor" href="#mark" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Mark</h1>
+
+<ul>
+<li>set mark a at current cursor location <code>ma</code> (assign mark to key <code>a</code>)</li>
+<li>jump to line of mark a (first non-blank character in line) <code>'a</code>
+</li>
+<li>jump to position (line and column) of mark <code>a</code> `<code>a</code>
+</li>
+<li>delete from current line to line of mark <code>a</code> <code>d'a</code>
+</li>
+<li>change text from current line to line of mark <code>a</code> <code>c'a</code>
+</li>
+<li>yank text to unnamed buffer from cursor to position of mark <code>a</code> <code>y</code>a`</li>
+<li>list all the current marks <code>:marks</code>
+</li>
+</ul>
       </section>
       <footer>
         <p>Project maintained by <a href="https://github.com/4383">4383</a></p>

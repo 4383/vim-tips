@@ -1,6 +1,6 @@
 {
   "name": "Vim Tips",
   "tagline": "Hervé Beraud personal vim tips and memo",
-  "body": "# Vim Tips\r\nHervé Beraud personal vim tips and memo\r\n\r\n# Format file\r\n- remove white spaces at line start `:%s/^\\s\\+//e`\r\n- remove white spaces at end of line `:%s/\\s\\+$//e`\r\n\r\n# Copy & paste\r\n- copy and assign to buffer `\"kyy` (in this example is assigned to key `k`)\r\n- paste buffer content (assigned to `k`) `\"kp`\r\n\r\n",
+  "body": "# Vim Tips\r\nHervé Beraud personal vim tips and memo\r\n\r\n# Format file\r\n- remove white spaces at line start `:%s/^\\s\\+//e`\r\n- remove white spaces at end of line `:%s/\\s\\+$//e`\r\n\r\n# Copy & paste\r\n- copy and assign to buffer `\"kyy` (in this example is assigned to key `k`)\r\n- paste buffer content (assigned to `k`) `\"kp`\r\n\r\n# Mark\r\n- set mark a at current cursor location `ma` (assign mark to key `a`)\r\n- jump to line of mark a (first non-blank character in line) `'a`\r\n- jump to position (line and column) of mark `a` ``a`\r\n- delete from current line to line of mark `a` `d'a`\r\n- change text from current line to line of mark `a` `c'a`\r\n- yank text to unnamed buffer from cursor to position of mark `a` `y`a`\r\n- list all the current marks `:marks`\r\n",
   "note": "Don't delete this file! It's used internally to help with page regeneration."
 }
