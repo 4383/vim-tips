@@ -12,8 +12,8 @@ Hervé Beraud personal vim tips and memo
 # Mark
 - set mark a at current cursor location `ma` (assign mark to key `a`)
 - jump to line of mark a (first non-blank character in line) `'a`
-- jump to position (line and column) of mark `a` ``a`
-- delete from current line to line of mark `a` `d'a`
-- change text from current line to line of mark `a` `c'a`
-- yank text to unnamed buffer from cursor to position of mark `a` `y`a`
+- jump to position (line and column) of mark ````a```
+- delete from current line to line of mark `d'a`
+- change text from current line to line of mark `c'a`
+- yank text to unnamed buffer from cursor to position of mark `y`a`
 - list all the current marks `:marks`
